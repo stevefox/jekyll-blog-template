@@ -1,14 +1,18 @@
-## Prerequisites
- * Install docker, make and git
+This is a simple project to get started with Jekyll Static HTML
+blogs. Jekyll is a really powerful, yet simple ruby-based tool for
+creating blogs and static website content using `markdown`.
+
+ ## Prerequisites
+
+* Install `docker`, `make` and `git`
 
 ## Quick Start
 
+```
 make init-blog
 make serve && firefox localhost:4000
+```
 
 ## Publishing to Github Pages
 
-I like to use git subtree for this, but you could also use a
-submodule, keeping your source repo private (for drafts, notes, etc..)
-and your build repo public on github.com.
-
+You can serve the `build/` directory as static html on any webserver, or using [Github Pages](https://pages.github.com/).
